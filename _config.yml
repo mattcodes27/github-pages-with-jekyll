@@ -1,12 +1,32 @@
 title: Matt's Thoughts
+url: "https://mattcodes27.github.io/github-pages-with-jekyll/"
 author: Matthew Stickler
 email: mattcodes27@iCloud.com
 description: My Homepage!
 
 # social links
-twitter_username: your-twitter-handle
-github_username:  your-github-handle
+twitter_username: soulonfire27
+github_username:  mattcodes27
 
 show_excerpts: true # set to false to remove excerpts on the homepage
 
-theme: jekyll-theme-slate
+remote_theme: daviddarnes/alembic
+
+# Jekyll plugins
+plugins:
+- jekyll-remote-theme
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-default-layout
+- jekyll-feed
+- jemoji
+
+# Files excluded from Jekyll builds
+exclude:
+- README.md
+- LICENSE
+- Gemfile
+- Gemfile.lock
